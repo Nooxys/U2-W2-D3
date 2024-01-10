@@ -1,0 +1,19 @@
+p {
+  color: #f4f4f4;
+}
+
+.bghero {
+  background-color: #640fc5;
+}
+
+button {
+  &:nth-of-type(1) {
+    background-color: #0e6cff;
+  }
+  &:nth-of-type(2) {
+    background-color: #ff8700;
+  }
+  &:nth-of-type(3) {
+    background-color: #4caf50;
+  }
+}

@@ -1,0 +1,49 @@
+main img,
+footer img {
+  @include imagesize;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  img {
+    padding: 1em;
+  }
+  ul {
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+}
+
+.parahero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  p {
+    padding: 1em;
+  }
+  img {
+    //
+    margin-right: 3em;
+    @include floating;
+  }
+}
+
+#bottonihero {
+  @include flexcenter;
+  padding: 2em;
+}
+
+footer {
+  @include flexcenter;
+
+  justify-content: space-around;
+  padding: 1em;
+  img {
+    @include floating;
+    border: none;
+    box-shadow: 3px 3px 3px #69095c;
+  }
+}

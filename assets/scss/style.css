@@ -1,0 +1,225 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 {
+  font-size: 80px;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  padding-top: 0.5em;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p {
+  color: #f4f4f4;
+}
+
+.bghero {
+  background-color: #640fc5;
+}
+
+button:nth-of-type(1) {
+  background-color: #0e6cff;
+}
+button:nth-of-type(2) {
+  background-color: #ff8700;
+}
+button:nth-of-type(3) {
+  background-color: #4caf50;
+}
+
+main img,
+footer img {
+  width: 20%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  padding: 1em;
+}
+nav ul {
+  width: 300px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.parahero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.parahero p {
+  padding: 1em;
+}
+.parahero img {
+  margin-right: 3em;
+  border-radius: 45px;
+  box-shadow: 5px 5px 15px 5px #000000;
+  border: solid 1px white;
+}
+
+#bottonihero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1em;
+}
+footer img {
+  border-radius: 45px;
+  box-shadow: 5px 5px 15px 5px #000000;
+  border: solid 1px white;
+  border: none;
+  box-shadow: 3px 3px 3px #69095c;
+}
+
+button {
+  font-size: 12px;
+  padding: 0.5em;
+}/*# sourceMappingURL=style.css.map */
